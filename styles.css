@@ -106,6 +106,8 @@ h4 {
       background-image: url('wideopentechimages/background.jpg');
       background-size: cover;
       background-repeat: no-repeat;
+      background-position: center center;
+      background-attachment: fixed;
       z-index: -1;
 }
 
@@ -180,21 +182,25 @@ h4 {
   margin: 250px 15px 140px 15px;
   background-color: white;
   float: left;
-  border-left: 1px solid black;
-  border-right: 1px solid black;
 }
-.spacer-three {
+.spacer-three-left {
   width: 8%;
   height: 550px;
   background-color: gray;
   float: left;
 }
-.left-border {
+.spacer-three-right {
+  width: 8%;
+  height: 550px;
+  background-color: gray;
+  float: right;
+}
+/*.left-border {
   border-left: 1px solid black;
 }
 .right-border {
   border-right: 1px solid black;
-}
+}*/
 
 /* How can we help styles */
 .sec-help {
@@ -227,11 +233,11 @@ h4 {
 
 .message {
   position: fixed;
-  bottom: 0;
-  right: 10px;
+  bottom: 15px;
+  right: 15px;
   background-color: #BDD434;
-  width: 170px;
-  height: 55px;
+  width: 186px;
+  height: 60px;
   border-radius: 4px;
   display: inline-block;
   color: #F2F6D5;
